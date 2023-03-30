@@ -1,9 +1,18 @@
 {
     "files.exclude": {
-        "**/.*.*.cmd": true,
-        "**/.*.d": true,
-        "**/.*.S": true
+        "**/*.cmd": true,
+        "**/*.d": true,
+        "**/*.o": true,
+        "**/powerpc": true,
+        "**/arm": true,
+        "**/mips": true,
+        "**/x86": true,
+        "**/.vscode": true,
+        "**/compile_commands.json": true,
+        "**/.cache": true
     },
+    "explorer.excludeGitIgnore": true,
+    "C_Cpp.intelliSenseEngine": "Disabled",
     "[c]": {
         "editor.detectIndentation": false,
         "editor.tabSize": 8,
